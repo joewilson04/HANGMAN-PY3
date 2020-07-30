@@ -57,7 +57,7 @@ while hangmandone == False:
         else:
             print("YOU WIN!!")
             hangmandone = True
-            win? = True
+            win = True
     else:
         print("WRONG")
         if head == 55:
@@ -95,10 +95,10 @@ while hangmandone == False:
                 turtle.forward(45)
                 print("YOU LOOSE")
                 hangmandone = True
-                win? = False
+                win = False
 
 
-if win? == False:
+if win == False:
     print("The word was "+specificword)
                 
 
