@@ -22,18 +22,18 @@ print("welcome to hangman!")
 time.sleep(0.75)
 print("generating random word...")
 ran1 = random.randint(0,3)
-if random == 0:
+if ran1 == 0:
     category = technology
-elif random == 1:
+elif ran1 == 1:
     category = drinks
-elif random == 2:
+elif ran1 == 2:
     category = food
-else:
+elif ran1 == 3:
     category = animals
 
 word = random.randint(0,9)
 specificword = category[word]
-print(specificword)
+#print(specificword)
 letterlist = list(specificword)
 #print(letterlist)
 lettercount = len(letterlist)
@@ -43,7 +43,16 @@ underscore = lettercount*'_'
 undlist = list(underscore)
 #print(undlist)
 print("lets play!")
-print(category)
+#print(category)
+if specificword in technology:
+    print("The category is technology!")
+elif specificword in drinks:
+    print("The category is drinks!")
+elif specificword in food:
+    print("The category is food!")
+elif specificword in animals:
+    print("The category is animals!")
+
 
 count = 0
 head = 55
