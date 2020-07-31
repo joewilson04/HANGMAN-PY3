@@ -2,11 +2,13 @@ import turtle
 import time
 import random
 from random import randint
-words = ["hanger", "chairs", "pocket", "bodywash", "clothing",
-                "computer", "python", "coding", "plastic", "jumper",
-                "trunk", "bedtime", "friends", "time", "chemist",
-                "iphone", "suitcase", "knives", "armies", "shower"
-                ]
+technology = ["iphone", "computer", "mac", "linux", "mobile", "python", "machinery", "tech", "cyber", "network"]
+
+drinks = ["coke", "sprite", "water", "juice", "tea", "vimto", "milk", "vodka", "lager", "whiskey", ]
+
+food = ["pork", "pear", "mustard", "rice", "bread", "fish", "soup", "beans", "chips", "fries", ]
+
+animals ["spider", "tiger", "penguin", "bear", "shark", "crab", "wolf", "monkey", "human", "lamb", ]
 hangmanword = 0
 turtle.left(90)
 turtle.forward(200)
