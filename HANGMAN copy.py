@@ -8,7 +8,7 @@ drinks = ["coke", "sprite", "water", "juice", "tea", "vimto", "milk", "vodka", "
 
 food = ["pork", "pear", "mustard", "rice", "bread", "fish", "soup", "beans", "chips", "fries", ]
 
-animals ["spider", "tiger", "penguin", "bear", "shark", "crab", "wolf", "monkey", "human", "lamb", ]
+animals = ["spider", "tiger", "penguin", "bear", "shark", "crab", "wolf", "monkey", "human", "lamb", ]
 hangmanword = 0
 turtle.left(90)
 turtle.forward(200)
@@ -21,11 +21,21 @@ turtle.right(90)
 print("welcome to hangman!")
 time.sleep(0.75)
 print("generating random word...")
-rand = random.randint(0, 19)
-specificword = words[rand]
-#print(specificword)
+ran1 = random.randint(0,3)
+if random == 0:
+    category = technology
+elif random == 1:
+    category = drinks
+elif random == 2:
+    category = food
+else:
+    category = animals
+
+word = random.randint(0,9)
+specificword = category[word]
+print(specificword)
 letterlist = list(specificword)
-print(letterlist)
+#print(letterlist)
 lettercount = len(letterlist)
 letterlistcomp = letterlist
 #print(lettercount)
@@ -33,7 +43,7 @@ underscore = lettercount*'_'
 undlist = list(underscore)
 #print(undlist)
 print("lets play!")
-
+print(category)
 
 count = 0
 head = 55
