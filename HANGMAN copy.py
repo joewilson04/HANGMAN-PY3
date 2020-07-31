@@ -57,7 +57,7 @@ while hangmandone == False:
         else:
             print("YOU WIN!!")
             hangmandone = True
-            win? = True
+            win = True
     else:
         print("WRONG")
         if head == 55:
