@@ -5,7 +5,7 @@ from random import randint
 words = ["hanger", "chairs", "pocket", "bodywash", "clothing",
                 "computer", "python", "coding", "plastic", "jumper",
                 "trunk", "bedtime", "friends", "time", "chemist",
-                "awsome", "suitcase", "knives", "armies", "shower"
+                "iphone", "suitcase", "knives", "armies", "shower"
                 ]
 hangmanword = 0
 turtle.left(90)
